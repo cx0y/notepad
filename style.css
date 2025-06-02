@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: lucida console, courier new, courier, monospace;
+    display:flex;
+    flex-direction:row;
+    align-content:center;
+    text-align:center;
+    justify-content:center;
+   /* background-image:linear-gradient(#0000007f, #0000007f), url("https://r4.wallpaperflare.com/wallpaper/1020/854/357/saber-fate-series-blonde-scarf-anime-girl-wallpaper-3920485d916a9dcbc607789f408126ad.jpg");*/
+    background-image:linear-gradient(#0000007f, #0000007f), url("https://images5.alphacoders.com/951/951416.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    width:100%;
+    height:100vh;
+}
+.pad{
+    margin-top:20px;
+    width:90%;
+    height:90vh;
+    font-size:16px;
+    outline:none;
+    border:1px solid transparent;
+    background-color:transparent;
+}
+
+.hide{
+    display:none;
+}
+
+::-webkit-input-placeholder {
+    color:#000;
+}
+
+::-webkit-scrollbar{
+    width:0px;
+}
+
+@media screen and (max-width:767px){
+    body{
+        background:#000;
+    }
+    .hide{
+        display:inline;
+        color:#fff;
+        margin-top:20px;
+    }
+    .pad{
+        display:none;
+    }
+
+}
