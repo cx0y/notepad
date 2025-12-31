@@ -1,5 +1,5 @@
 const pad = document.getElementById("pad");
-pad.placeholder = `Quantum computing is a type of computation whose operations can ....`;
+pad.placeholder = `start your typing here.... press ctrl + d to save file as text file`;
 
 
 const saveTextAsFile = () => {
