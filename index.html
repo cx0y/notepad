@@ -8,8 +8,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h2 class="hide">Not build for this device</h2> 
-        <textarea class="pad" id="pad"></textarea>
+        <h2 class="hide">Not built for this device</h2>
+        <div class="toolbar">
+          <input id="filename" type="text" value="file.txt" aria-label="Filename" />
+          <button id="saveBtn" type="button">Save</button>
+          <span class="hint">Or press Ctrl+S (or Ctrl+D)</span>
+        </div>
+        <textarea class="pad" id="pad" placeholder="Start typing here..."></textarea>
         <script src="./script.js"></script>
     </body>
 </html>
